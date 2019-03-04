@@ -1,0 +1,70 @@
+.page-header {
+  height: 13vh;
+
+  z-index: 1;
+
+  &__logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    cursor: pointer;
+  }
+
+  &__menu-button {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+
+    top: 30px;
+    right: 25px;
+  }
+
+  &__menu-button-el {
+    display: block;
+    height: 1px;
+    width: 100%;
+
+    @include margin-killer;
+
+    background: hsl(0, 0, 100);
+    margin-top: 4px;
+
+    float: right;
+    clear: both;
+
+    transition: all 150ms ease-out;
+  }
+
+  &__menu-button-el:first-of-type {
+    margin-top: 0;
+  }
+
+  &__menu-button-el:nth-of-type(2) {
+    width: 35.38%;
+  }
+
+  &__menu-button-el:nth-of-type(3) {
+    width: 81.53%;
+  }
+
+  &__menu-button-el:nth-of-type(4) {
+    width: 63%;
+  }
+
+  &__menu-button:hover &__menu-button-el {
+    width: 63%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header__logo {
+    top: 50px;
+    left: 50px;
+  }
+
+  .page-header__menu-button {
+    top: 50px;
+    right: 40px;
+  }
+}

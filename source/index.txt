@@ -1,0 +1,8 @@
+<div class="content__logo-wrapper">
+  <img class="content__logo" src="img/logo-big-vertical.svg" alt="Insight language center">
+</div>
+<h1 class="visually-hidden">Insight Foreign Languages Learning Center</h1>
+<div class="content__stars-wrapper">
+  <div class="content__stars"></div>
+</div>
+<button id="modal-free-Id" class="button button--open-modal button--free button--on-main">Get the 1st lesson free</button>

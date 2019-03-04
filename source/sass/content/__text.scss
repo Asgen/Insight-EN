@@ -1,0 +1,128 @@
+.content__heading {
+  @include margin-killer;
+  margin-bottom: 28px;
+
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.content__heading::before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: $link-hover-color;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.content__big-heading {
+  @include margin-killer;
+  @include xxs-heading;
+
+  margin-bottom: 10px;
+}
+
+.content__subtitle {
+  position: relative;
+
+  @include margin-killer;
+  @include xxs-subtitle;
+  margin-bottom: 40px;
+}
+
+.content__subtitle::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+
+  width: 10%;
+  height: 1px;
+
+  background-color: $link-hover-color;
+}
+
+.content__text {
+  @include margin-killer;
+  margin-bottom: 50px;
+
+  color: $white-transparent09-color;
+  font-family: "Merriweather", "Times New Roman", serif;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+
+  text-shadow: #000000 0 1px 1px, #000000 0 -1px 1px;
+}
+
+.content__text--review {
+  margin-bottom: 75px;
+  font-weight: 300;
+}
+
+.content__text--news {
+  position: relative;
+  text-align: left;
+}
+
+.content__text--news::before {
+  content: "21.12.2018";
+  position: absolute;
+
+  top: -25px;
+
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.content__text--news::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+
+  top: -7px;
+  left: 0;
+
+  background-color: white;
+}
+
+@media (min-width: $normal-mobile-width) {
+  .content__big-heading {
+    @include xs-heading;
+  }
+
+  .content__subtitle {
+    @include xs-subtitle;
+  }
+}
+
+@media (min-width: $wide-mobile-width) {
+  .content__big-heading {
+    @include sm-heading;
+  }
+
+  .content__subtitle {
+    @include sm-subtitle;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .content__heading {
+    font-size: 16px;
+  }
+
+  .content__text {
+    font-size: $main-font-size-tablet;
+    line-height: $main-line-height-tablet;
+  }
+
+  .content__big-heading {
+    @include tb-heading;
+  }
+
+  .content__subtitle {
+    @include tb-subtitle;
+  }
+}

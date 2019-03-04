@@ -1,0 +1,54 @@
+<div class="content__container content__container--review">
+  <h1 class="content__heading">Insight students’ Feedback</h1>
+
+  <section class="slider">
+    <h2 class="content__text content__text--review">Insight Language Center  Learners share their opinions</h2>
+    <input type="radio" class="visually-hidden" id="review-1" name="toggle" checked>
+    <input type="radio" class="visually-hidden" id="review-2" name="toggle">
+    <input type="radio" class="visually-hidden" id="review-3" name="toggle">
+    <input type="radio" class="visually-hidden" id="review-4" name="toggle">
+    <div class="slider__controls">
+      <label for="review-1">Первый</label>
+      <label for="review-2">Второй</label>
+      <label for="review-3">Третий</label>
+      <label for="review-4">Четвертый</label>
+    </div>
+    <ul class="slider__list">
+      <li class="slider__item slide" id="slide1">
+        <p class="slider__time">12-02-2018</p>
+        <p class="slider__text">I love learning at Insight Language Center ‘course as it’s very comfortable & cozy there. I’m very grateful for well-organized lessons. I always have a great time here, which flies rapidly. At the end of the lesson all my doubts fly away & I’m getting more & more confident of my academic ability. All lessons are given in a non-trivial form & learners are never bored. Thanks a lot for your being always ready to help us & for a friendly approval!</p>
+        <span class="slider__author"> Atazhanova Diana
+          <span class="slider__author-id">Anapa, 16</span>
+        </span>
+        <span class="slider__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+      </li>
+      <li class="slider__item slide" id="slide2">
+        <p class="slider__time">03-06-2018</p>
+        <p class="slider__text">My 10-year old son has been studying in Language Center Insight for three years. He really enjoys going there. The language of a very high level  is taught very softly, in a non-intrusive kind of way, normally in a form of a game, which made him  be pretty interested in language learning. I’d like to thank our teacher  Mayra Khadzhimuratovna. Thanks a lot!!!</p>
+        <span class="slider__author">Sugak Anastasia
+          <span class="slider__author-id">Anapa</span>
+        </span>
+        <span class="slider__stars">&#9733;&#9733;&#9733;&#9734;&#9734;</span>
+      </li>
+      <li class="slider__item slide" id="slide3">
+        <p class="slider__time">15-01-2019</p>
+        <p class="slider__text">It’s the best Center for learning languages in our town! My daughter goes there with  great pleasure. Thanks a lot to our teacher, Mayra, for her being so patient, for her sensivity & being always friendly to learners. Her professional skills & ability to find clue to everybody  are the main features of this teacher.</p>
+        <span class="slider__author">Inna Pavlova
+          <span class="slider__author-id">Anapa</span>
+        </span>
+        <span class="slider__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </li>
+      <li class="slider__item slide" id="slide4">
+        <p class="slider__time">15-01-2019</p>
+        <p class="slider__text">My child attends English lessons in Language Center Insight with great pleasure & readiness. I’d like to thank Mayra for working out very effective methodic & for giving deep knowledge of actual authentic English, for comfortable conditions at Center & for payment charged  only for the given lesson. Thank you very much!</p>
+        <span class="slider__author">Anzhelika Yenenko
+          <span class="slider__author-id">Anapa</span>
+        </span>
+        <span class="slider__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </li>
+    </ul>
+    <button id="modal-Id" class="button button--open-modal">Share feedback</button>
+  </section>
+  <a href="#" class="content__arrow content__arrow--prev">prev</a>
+  <a href="#" class="content__arrow content__arrow--next">next</a>
+</div>

@@ -1,0 +1,127 @@
+.modal {
+  position: absolute;
+
+  width: 100%;
+  height: 0;
+  top: 0;
+
+  overflow: hidden;
+
+  background-color: $black-color;
+
+  visibility: hidden;
+  z-index: 0;
+  opacity: 0;
+
+  transition: opacity 0.5s ease-in-out;
+
+  &__wrapper {
+    position: relative;
+    padding-top: 100px;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  &__close {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  &__close::before,
+  &__close::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+
+    width: 100%;
+    height: 1px;
+
+    background: #ffffff;
+    vertical-align: middle;
+    line-height: normal;
+
+    top: 50%;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -1px;
+
+    transition: all 100ms ease-out;
+  }
+
+  &__close::before {
+    transform: rotate(45deg);
+  }
+
+  &__close::after {
+    transform: rotate(-45deg);
+  }
+
+  &__close:hover::before,
+  &__close:hover::after {
+    transform: rotate(0deg);
+  }
+
+  &__heading {
+    @include margin-killer;
+    @include xxs-heading;
+
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    @include margin-killer;
+    @include xs-subtitle;
+
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: $normal-mobile-width) {
+  .modal__wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .modal__heading {
+    @include xs-heading;
+  }
+}
+
+@media (min-width: $wide-mobile-width) {
+  .modal__wrapper {
+    max-width: 500px;
+  }
+
+  .modal__heading {
+    @include sm-heading;
+  }
+
+  .modal__description {
+    @include sm-subtitle;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .modal__wrapper {
+    max-width: 700px;
+  }
+
+  .modal__heading {
+    @include tb-heading;
+  }
+
+  .modal__description {
+    @include tb-subtitle;
+  }
+}

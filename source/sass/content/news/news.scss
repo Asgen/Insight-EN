@@ -1,0 +1,29 @@
+.news__time {
+  display: block;
+
+  @include margin-killer;
+  margin-bottom: 3px;
+
+  font-size: $news-time-font-size;
+  line-height: $news-time-line-height;
+  text-align: left;
+
+  border-bottom: 1px solid $white-half-transparent;
+}
+
+.news__text {
+  font-size: $news-text-font-size;
+  line-height: $news-text-line-height;
+  text-align: left;
+}
+
+@media (min-width: $tablet-width) {
+  .news__text {
+    font-size: $news-text-font-size-tablet;
+    line-height: $news-text-line-height-tablet;
+  }
+
+  .news__time {
+    font-size: $news-time-font-size-tablet;
+  }
+}

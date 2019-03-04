@@ -1,0 +1,33 @@
+<div class="content__container content__container--align-left">
+  <h3 class="content__big-heading">Insight Language Center - Prices </h3>
+  <p class="content__subtitle modal__description">there is a possibility of “frozen”  payment</p>
+  <div class="price">
+    <table class="price__table">
+      <tr class="price__row">
+        <td class="price__cell">One-to-one lesson 90 minutes</td>
+        <td class="price__cell">1000 ₽</td>
+      </tr>
+      <tr class="price__row">
+        <td class="price__cell">Group lesson (4-6 learners)  75 minutes</td>
+        <td class="price__cell">400 ₽</td>
+      </tr>
+      <tr class="price__row">
+        <td class="price__cell">Center Membership  Intensive  Group Course (4-6 learners)  1 hour  18 lessons</td>
+        <td class="price__cell">5500 ₽</td>
+      </tr>
+      <tr class="price__row">
+        <td class="price__cell">Center Membership  General  Group Course (4-6 learners) 9  lessons 1 hour per month</td>
+        <td class="price__cell">3600 ₽</td>
+      </tr>
+      <tr class="price__row">
+        <td class="price__cell">Center Membership  General  +    Group Course (4-6 learners) 12  lessons 1 hour per month</td>
+        <td class="price__cell">4400 ₽</td>
+      </tr>
+      <tr class="price__row">
+        <td class="price__cell">Center Membership Boost (2 learners) 90 minutes 9 lessons per month</td>
+        <td class="price__cell">6200 ₽</td>
+      </tr>
+    </table>
+  </div>
+  <button id="modal-free-Id" class="button button--open-modal button--free">Get the 1st lesson free</button>
+</div>

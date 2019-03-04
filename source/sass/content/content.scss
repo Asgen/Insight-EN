@@ -1,0 +1,54 @@
+.content {
+  position: relative;
+
+  text-align: center;
+
+  transition: all 0.4s linear 0s;
+  perspective: 10px;
+}
+
+.content__logo {
+  width: 50%;
+}
+
+.content__logo-wrapper {
+  position: absolute;
+
+  width: 320px;
+
+  top: 20%;
+  left: 50%;
+  margin-left: -160px;
+
+  transition: all 0.7s linear 0s;
+}
+
+/* Главная */
+.content__logo-sign {
+  @include margin-killer;
+}
+
+.content__stars-wrapper {
+  width: 90%;
+  height: 76vh;
+
+  margin: 0 auto;
+
+  box-sizing: border-box;
+  perspective: 340px;
+}
+
+@media (min-width: $tablet-width) {
+  .content__stars-wrapper {
+    width: 75%;
+  }
+
+  .content__logo {
+    width: 60%;
+  }
+}
+
+@import "__stars.scss";
+@import "__text.scss";
+@import "__container.scss";
+@import "__arrow.scss"

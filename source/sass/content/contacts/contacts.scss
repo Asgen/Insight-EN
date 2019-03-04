@@ -1,0 +1,30 @@
+.contacts {
+  @include list-killer;
+  margin-bottom: 50px;
+  padding: 0 15px;
+
+  font-size: $xxs-subtitle-font-size;
+  line-height: $xxs-subtitle-line-height;
+
+  &__item {
+    @include margin-killer;
+    margin-bottom: 7px;
+  }
+
+  & strong {
+    @include margin-killer;
+    margin-right: 10px;
+    color: $link-hover-color;
+  }
+
+  & a:hover {
+    color: $link-hover-color;
+  }
+}
+
+@media (min-width: tablet-width) {
+  .contacts {
+    font-size: $sm-subtitle-font-size;
+    line-height: $sm-subtitle-line-height;
+  }
+}

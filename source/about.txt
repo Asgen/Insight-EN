@@ -1,0 +1,41 @@
+<div class="content__container">
+  <h1 class="content__heading">О центре Insight</h1>
+  <h2 class="visually-hidden">Insight центр иностранных языков</h2>
+  <p class="content__text">
+    Insight – Foreign Languages Learning Center invites you to receive training by authorized methodic providing the individual approach to each learner. We’ll give you a great chance to change your life completely!
+  </p>
+  <div class="features">
+    <div class="features__item">
+      <img src="img/translation.svg" alt="Insight Гибкий график">
+      <h3>Interpretation & Real-time translation</h3>
+    </div>
+    <div class="features__item">
+      <img src="img/worlwide.svg" alt="Insight Подготовка к международным экзаменам">
+      <h3>TOEFL, IELTS, FCE, CAE Preparation Courses</h3>
+    </div>
+    <div class="features__item">
+      <img src="img/russian.svg" alt="Insight русский, как иностранный">
+      <h3>(RFL)  Russian as a Foreign Language</h3>
+    </div>
+    <div class="features__item">
+      <img src="img/icon.svg" alt="Insight Разговорный English, German, French, Spanish, Spanish">
+      <h3>English, German, French, Spanish, Spanish</h3>
+    </div>
+    <div class="features__item">
+      <img src="img/happiness.svg" alt="Insight Different Ages Groups">
+      <h3>Different Ages Groups</h3>
+    </div>
+    <div class="features__item">
+      <img src="img/test.svg" alt="Insight USE (Unified State Exam) & BSE (Basic State Exam) Preparation Courses">
+      <h3>USE (Unified State Exam) & BSE (Basic State Exam) Preparation Courses</h3>
+    </div>
+    <div class="features__item">
+      <img src="img/man-in-a-party-dancing-with-people.svg" alt="Insight Корпоративное обучение">
+      <h3>Корпоративное обучение</h3>
+    </div>
+    <div class="features__item">
+      <img src="img/esp.svg" alt="Insight English for Specific Purposes">
+      <h3>English for Specific Purposes</h3>
+    </div>
+  </div>
+</div>

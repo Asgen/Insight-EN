@@ -1,0 +1,92 @@
+@import "fonts.scss";
+@import "normalize.scss";
+@import "variables.scss";
+@import "header/page-header/page-header.scss";
+@import "header/main-nav/main-nav.scss";
+@import "footer/page-footer.scss";
+@import "content/content.scss";
+@import "content/features/features.scss";
+@import "content/news/news.scss";
+@import "content/reviews/slider.scss";
+@import "content/price/price.scss";
+@import "content/contacts/contacts.scss";
+@import "common/modal/modal.scss";
+@import "common/form/form.scss";
+@import "common/modal/message.scss";
+@import "loader/loader.scss";
+
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+
+  padding-bottom: 11vh;
+  box-sizing: border-box;
+
+  background: radial-gradient(circle, #1f1e1e, rgba(0, 0, 0, 1));
+  background-repeat: no-repeat;
+
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 300;
+  color: $white-color;
+}
+
+a {
+  color: $white-color;
+  text-decoration: none;
+
+  transition: all 150ms ease-out;
+}
+
+.button {
+  display: inline-block;
+  line-height: $button-line-height;
+  font-size: $button-font-size;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid $link-hover-color;
+  color: $link-hover-color;
+  padding: 0 25px;
+  padding-top: 2px;
+}
+
+.button:hover {
+  background-color: $link-hover-color;
+  color: $black-color;
+}
+
+.button--open-modal {
+  position: absolute;
+  left: 0;
+
+  transition: opacity 300ms ease;
+}
+
+.button--free {
+  position: static;
+  font-size: 16px;
+}
+
+.button--on-main {
+  position: absolute;
+  min-width: 297px;
+
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

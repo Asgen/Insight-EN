@@ -1,0 +1,52 @@
+<div class="content__container content__container--align-left">
+  <h3 class="content__big-heading">Что вы хотите узнать?</h3>
+  <p class="content__subtitle modal__description">Помогать Вам - это наша работа</p>
+  <ul class="content__contacts-list contacts">
+    <li class="contacts__item">
+      <strong>M</strong>
+      <a href="mailto:info@insight.ru.net">info@insight.ru.net</a>
+    </li>
+    <li class="contacts__item">
+      <strong>T</strong>
+      <a href="tel:+79284373301">+7(928) 437-33-01</a>
+    </li>
+    <li class="contacts__item">
+      <strong>A</strong>
+      <a href="https://goo.gl/maps/pdUussxPm912" target="_blank">Anapa, ул. Краснозеленых, 15, офис 4</a>
+    </li>
+  </ul>
+  <h3 class="content__big-heading">Особый вопрос?</h3>
+  <form class="form" action="form_processing.php" method="POST">
+    <div class="form__input">
+      <span class="form__underline">
+        <input type="text" placeholder="Имя" name="name" required autocomplete="off">
+      </span>
+    </div>
+    <div class="form__input">
+      <span class="form__underline">
+        <input type="text" placeholder="Фамилия" name="surname" autocomplete="off">
+      </span>
+    </div>
+    <div class="form__input">
+      <span class="form__underline">
+        <input type="mail" placeholder="Email" name="email" required autocomplete="off">
+      </span>
+    </div>
+    <div class="form__input">
+      <span class="form__underline">
+        <input type="number" placeholder="Телефон" name="phone" autocomplete="off">
+      </span>
+    </div>
+    <div class="form__input form__input--big">
+      <span class="form__underline">
+        <input type="text" placeholder="Тема" name="subject" autocomplete="off">
+      </span>
+    </div>
+    <div class="form__input form__input--big form__input--last">
+      <span class="form__underline">
+        <textarea name="body" cols="30" rows="5" placeholder="Мой вопрос" required></textarea>
+      </span>
+    </div>
+    <button class="button form__submit" type="submit">Send</button>
+  </form>
+</div>

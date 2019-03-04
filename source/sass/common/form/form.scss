@@ -1,0 +1,136 @@
+.form {
+  &__input {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    margin: 1.5%;
+    font-size: 16px;
+  }
+
+  &__input--big {
+    width: 97%;
+  }
+
+  &__input--last {
+    margin-bottom: 30px;
+  }
+
+  &__underline {
+    display: block;
+    position: relative;
+
+    @include margin-killer;
+  }
+
+  &__underline::before,
+  &__underline::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background: $dark-gray-color;
+  }
+
+  &__underline.filled::after {
+    background-color: $white-color;
+  }
+
+  &__underline::after {
+    width: 0;
+    background-color: $link-hover-color;
+
+    transition: all 150ms ease-out;
+  }
+
+  &__underline.focus::after,
+  &__underline.filled::after {
+    width: 100%;
+  }
+
+  &__underline input[type="text"],
+  &__underline input[type="number"],
+  &__underline input[type="mail"] {
+    width: 100%;
+
+    font-size: 1em;
+    line-height: 35px;
+
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    color: $white-color;
+    outline: none;
+  }
+
+  &__underline textarea {
+    width: 97%;
+    padding-top: 20px;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+  }
+
+  &__input-heading {
+    @include margin-killer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    color: $white-half-transparent;
+    font-weight: 200;
+    font-size: $sm-subtitle-font-size;
+    line-height: $sm-subtitle-line-height;
+  }
+
+  &__radio {
+    width: 5%;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+
+  &__label {
+    width: 90%;
+    display: inline-block;
+
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 25px;
+    box-sizing: border-box;
+  }
+
+  &__label:last-child {
+    margin-bottom: 20px;
+  }
+
+  &__submit {
+    margin-bottom: 10px;
+  }
+
+  &__rules {
+    padding: 20px 10px;
+
+
+    border: 1px solid $white-transparent03-color;
+    border-radius: 15px;
+
+    color: $white-half-transparent;
+  }
+
+  &__rules h4 {
+    @include margin-killer;
+    font-size: $news-time-font-size;
+    line-height: $news-time-line-height;
+    font-weight: 300;
+  }
+
+  &__rules p {
+    @include margin-killer;
+    font-size: $rules-font-size;
+    line-height: $rules-line-height;
+  }
+}
