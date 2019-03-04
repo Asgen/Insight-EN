@@ -63,7 +63,7 @@ gulp.task("html", function() {
 
 gulp.task("scripts", function() {
   return gulp.src("source/js/*.js")
-    .pipe(concat("all.js"))
+    .pipe(concat("allEn.js"))
     .pipe(gulp.dest("build/js"));
 });
 
