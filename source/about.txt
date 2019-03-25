@@ -1,5 +1,5 @@
 <div class="content__container">
-  <h1 class="content__heading">О центре Insight</h1>
+  <h1 class="content__heading">About Insight Language Center</h1>
   <h2 class="visually-hidden">Insight центр иностранных языков</h2>
   <p class="content__text">
     Insight – Foreign Languages Learning Center invites you to receive training by authorized methodic providing the individual approach to each learner. We’ll give you a great chance to change your life completely!
@@ -30,8 +30,8 @@
       <h3>USE (Unified State Exam) & BSE (Basic State Exam) Preparation Courses</h3>
     </div>
     <div class="features__item">
-      <img src="img/man-in-a-party-dancing-with-people.svg" alt="Insight Корпоративное обучение">
-      <h3>Корпоративное обучение</h3>
+      <img src="img/man-in-a-party-dancing-with-people.svg" alt="Insight Corporate Language Training">
+      <h3>Corporate Language Training</h3>
     </div>
     <div class="features__item">
       <img src="img/esp.svg" alt="Insight English for Specific Purposes">

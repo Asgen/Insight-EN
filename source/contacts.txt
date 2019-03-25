@@ -1,6 +1,6 @@
 <div class="content__container content__container--align-left">
-  <h3 class="content__big-heading">Что вы хотите узнать?</h3>
-  <p class="content__subtitle modal__description">Помогать Вам - это наша работа</p>
+  <h3 class="content__big-heading">What information you’d like to get?</h3>
+  <p class="content__subtitle modal__description">We are here to help you!</p>
   <ul class="content__contacts-list contacts">
     <li class="contacts__item">
       <strong>M</strong>
@@ -15,16 +15,16 @@
       <a href="https://goo.gl/maps/pdUussxPm912" target="_blank">Anapa, ул. Краснозеленых, 15, офис 4</a>
     </li>
   </ul>
-  <h3 class="content__big-heading">Особый вопрос?</h3>
+  <h3 class="content__big-heading">Special question?</h3>
   <form class="form" action="form_processing.php" method="POST">
     <div class="form__input">
       <span class="form__underline">
-        <input type="text" placeholder="Имя" name="name" required autocomplete="off">
+        <input type="text" placeholder="Given Name" name="name" required autocomplete="off">
       </span>
     </div>
     <div class="form__input">
       <span class="form__underline">
-        <input type="text" placeholder="Фамилия" name="surname" autocomplete="off">
+        <input type="text" placeholder="Last Name" name="surname" autocomplete="off">
       </span>
     </div>
     <div class="form__input">
@@ -34,17 +34,17 @@
     </div>
     <div class="form__input">
       <span class="form__underline">
-        <input type="number" placeholder="Телефон" name="phone" autocomplete="off">
+        <input type="number" placeholder="Phone Number" name="phone" autocomplete="off">
       </span>
     </div>
     <div class="form__input form__input--big">
       <span class="form__underline">
-        <input type="text" placeholder="Тема" name="subject" autocomplete="off">
+        <input type="text" placeholder="Topic" name="subject" autocomplete="off">
       </span>
     </div>
     <div class="form__input form__input--big form__input--last">
       <span class="form__underline">
-        <textarea name="body" cols="30" rows="5" placeholder="Мой вопрос" required></textarea>
+        <textarea name="body" cols="30" rows="5" placeholder="My question" required></textarea>
       </span>
     </div>
     <button class="button form__submit" type="submit">Send</button>
