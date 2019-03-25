@@ -9,7 +9,7 @@ $lang = htmlspecialchars($_POST["language"]);
 $message = htmlspecialchars($_POST["body"]);
 /* Устанавливаем e-mail адресата */
 $myemail = "info@insight.ru.net";
-$subject = "Письмо с сайта insight.ru.net";
+$subject = "Письмо с сайта en.insight.ru.net";
 /* Создаем новую переменную, присвоив ей значение */
 $message_to_myemail = "Здравствуйте!
 Вашей контактной формой было отправлено сообщение!
